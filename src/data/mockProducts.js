@@ -1,0 +1,38 @@
+export const initialCartItems = [
+  {
+    id: '1',
+    name: 'Minimalist Leather Sneakers',
+    category: 'Footwear',
+    price: 120.00,
+    selectedColor: '#000000',
+    availableColors: ['#000000', '#FFFFFF', '#8B5A2B', '#1E3A8A'],
+    selectedSize: '42',
+    availableSizes: ['39', '40', '41', '42', '43'],
+    quantity: 1,
+    image: 'https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&auto=format&fit=crop&q=80',
+  },
+  {
+    id: '2',
+    name: 'Classic Organic Cotton Hoodie',
+    category: 'Apparel',
+    price: 65.50,
+    selectedColor: '#6B7280',
+    availableColors: ['#6B7280', '#111827', '#E5E7EB', '#047857'],
+    selectedSize: 'L',
+    availableSizes: ['S', 'M', 'L', 'XL'],
+    quantity: 2,
+    image: 'https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=400&auto=format&fit=crop&q=80',
+  },
+  {
+    id: '3',
+    name: 'Urban Everyday Backpack',
+    category: 'Accessories',
+    price: 85.00,
+    selectedColor: '#1F2937',
+    availableColors: ['#1F2937', '#3B82F6', '#D97706'],
+    selectedSize: 'One Size',
+    availableSizes: ['One Size'],
+    quantity: 1,
+    image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&auto=format&fit=crop&q=80',
+  }
+];
